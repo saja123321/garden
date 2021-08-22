@@ -1,0 +1,43 @@
+form , table{
+    display: inline-block;
+    border: 2px brown dotted;
+    width: 45%;
+    padding: 20px;
+    background-color: brown;
+    margin: 50px;
+}
+form > *{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: 30px auto;
+    background-color: burlywood;
+}
+td , th {
+    align-items: start;
+    align-content: center;
+    width: 50%;
+    height: 130px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+ td > img {
+     display: block;
+     margin: auto;
+ }
+ body{
+    align-items: start;
+    display: flex;
+ }
+
+ tr:nth-child(odd){
+     background-color: brown;
+     border: 5px burlywood dotted;
+     margin: 20px;
+ }
+ tr:nth-child(even){
+    background-color: burlywood;
+    border: 5px  dotted;
+    margin-top: 20px;
+}
